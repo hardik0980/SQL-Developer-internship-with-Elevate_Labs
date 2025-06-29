@@ -1,0 +1,10 @@
+bjective: Practice inserting, updating, and deleting data.
+Tools :DB Fiddle / SQLiteStudio
+Deliverables: SQL file with INSERT, UPDATE, DELETE statement
+
+
+
+1.Use INSERT INTO for adding rows
+2.Handle missing values using NULL or default
+3.Use UPDATE and DELETE with WHERE conditions
+Outcome: A populated database with clean and consistent dat
