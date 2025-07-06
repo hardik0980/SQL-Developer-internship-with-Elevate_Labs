@@ -1,0 +1,24 @@
+SQL Task 8 – Stored Procedures and Functions
+This script demonstrates how to create and use stored procedures and user-defined functions in the task5_db database, based on the customers and orders tables.
+
+⚙️ Key Components:
+Stored Procedure: get_orders_by_customer
+
+Accepts a customer ID and returns a list of that customer’s orders.
+
+Stored Procedure: insert_new_customer
+
+Takes name and city as input, and inserts a new record into the customers table.
+
+Function: get_total_spent
+
+A reusable function that returns the total amount spent by a customer, given their ID.
+
+Uses IFNULL() to handle customers with no orders.
+
+Execution Examples
+
+Calls each procedure and function with sample input to test their behavior.
+
+💡 Purpose:
+To practice writing and executing modular SQL code using procedures and functions, which help automate and encapsulate repeated logic for cleaner database operations.
