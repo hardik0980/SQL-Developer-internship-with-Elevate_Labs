@@ -1,0 +1,27 @@
+SQL Task 7 – Views and Virtual Tables
+This SQL script introduces the use of views in SQL to simplify data querying and reporting, based on the customers and orders tables in the task5_db database.
+
+🧱 Key Concepts Covered:
+Creating Views
+
+view_customer_orders: Displays a combined view of customer and order details.
+
+view_total_spent: Shows total spending (SUM(amount)) per customer.
+
+view_high_value_orders: Filters and shows only those orders where the amount is greater than 2500.
+
+Using Views
+
+Queries are performed on views to extract meaningful insights in a simplified way.
+
+Updating Views
+
+Demonstrates how to modify (REPLACE) an existing view (view_total_spent) to include additional fields like city.
+
+Deleting Views
+
+Shows how to drop a view safely using DROP VIEW IF EXISTS.
+
+💡 Purpose:
+To understand how views can encapsulate complex queries and make repeated data access easier, cleaner, and more efficient — especially for reporting or dashboard integration.
+
