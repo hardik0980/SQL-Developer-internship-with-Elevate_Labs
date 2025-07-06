@@ -1,1 +1,27 @@
-handwritten Sql notes
+SQL Task 6 – Advanced Subqueries and Filtering
+This SQL script builds on the previous task by using subqueries to perform advanced analysis on the customers and orders tables in the task5_db database.
+
+🔍 Key Operations:
+Subquery in SELECT Clause
+
+Shows each customer's total order amount using a correlated subquery.
+
+Subquery in WHERE Clause
+
+Retrieves customers who have placed orders using both IN and EXISTS conditions.
+
+Customer with Highest Spending
+
+Identifies the customer who has spent the most in total.
+
+Subquery as a Virtual Table
+
+Calculates the average order amount per customer and joins it with customer names.
+
+Correlated Subquery in WHERE
+
+Fetches all orders greater than the average amount for that customer's orders.
+
+💡 Purpose:
+To practice using correlated and nested subqueries in different parts of a SQL query — in SELECT, WHERE, and FROM — to perform more powerful data filtering and aggregation.
+
